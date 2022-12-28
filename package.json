@@ -4,7 +4,7 @@
   "description": "Node.js and typescript backend setup project for blog-tube",
   "main": "index.js",
   "repository": "https://github.com/leoroese/blog-tube",
-  "author": "Leonardo Roese",
+  "author": "Himanshu Gupta",
   "license": "MIT",
   "scripts": {
     "start:dev": "nodemon",
