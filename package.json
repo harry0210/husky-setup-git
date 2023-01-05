@@ -48,5 +48,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged && yarn test",
+      "pre-push": "yarn test"
+
+     }
   }
 }
